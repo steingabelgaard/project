@@ -1,4 +1,3 @@
-# coding: utf-8
 # © 2015 David BEAL @ Akretion
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
@@ -37,8 +36,8 @@ class IrValues(models.Model):
         return {
             'id': action.id,
             'name': _('Create a related task'),
-            'res_model': u'project.task',
+            'res_model': 'project.task',
             'src_model': model,
-            'type': u'ir.actions.act_window',
+            'type': 'ir.actions.act_window',
             'target': 'current',
         }
