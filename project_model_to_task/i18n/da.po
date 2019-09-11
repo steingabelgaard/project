@@ -1,0 +1,87 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_model_to_task
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-10 11:48+0000\n"
+"PO-Revision-Date: 2019-09-10 13:51+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Language: da\n"
+
+#. module: project_model_to_task
+#: model:ir.model.fields,field_description:project_model_to_task.field_project_task_action_id
+msgid "Action"
+msgstr "Aktion"
+
+#. module: project_model_to_task
+#: model:ir.model.fields,help:project_model_to_task.field_project_task_action_id
+msgid "Action called to go to the original window."
+msgstr ""
+
+#. module: project_model_to_task
+#: code:addons/project_model_to_task/models/action.py:38
+#, python-format
+msgid "Create a related task"
+msgstr "Opret relateret opgave"
+
+#. module: project_model_to_task
+#: code:addons/project_model_to_task/models/project.py:71
+#, python-format
+msgid ""
+"Field 'Task Origin' is not set.\n"
+"Impossible to go to the original document."
+msgstr ""
+
+#. module: project_model_to_task
+#: model:ir.ui.view,arch_db:project_model_to_task.view_task_form2
+msgid "Go to the window from which the task has been defined."
+msgstr ""
+
+#. module: project_model_to_task
+#: model:ir.model.fields,field_description:project_model_to_task.field_project_task_model_reference
+msgid "Model Reference"
+msgstr ""
+
+#. module: project_model_to_task
+#: model:ir.actions.act_window,name:project_model_to_task.task_from_elsewhere
+msgid "Model to task creation"
+msgstr "Model til opgave oprettelse"
+
+#. module: project_model_to_task
+#: model:ir.ui.view,arch_db:project_model_to_task.view_task_form2
+msgid "Open"
+msgstr "Åbn"
+
+#. module: project_model_to_task
+#: model:ir.ui.menu,name:project_model_to_task.task_linked_to_other_record_menu
+msgid "Relative Tasks"
+msgstr "Relative opgaver"
+
+#. module: project_model_to_task
+#: model:ir.model,name:project_model_to_task.model_project_task
+msgid "Task"
+msgstr "Opgave"
+
+#. module: project_model_to_task
+#: model:ir.model.fields,field_description:project_model_to_task.field_project_task_task_origin
+msgid "Task Origin"
+msgstr "Kilde"
+
+#. module: project_model_to_task
+#: model:ir.actions.act_window,name:project_model_to_task.task_linked_to_other_record_act
+msgid "Tasks relative to objects"
+msgstr "Opgaver relative til objekt"
+
+#. module: project_model_to_task
+#: model:ir.model,name:project_model_to_task.model_ir_actions_act_window
+msgid "ir.actions.act_window"
+msgstr ""
